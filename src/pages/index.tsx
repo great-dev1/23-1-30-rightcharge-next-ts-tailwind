@@ -289,7 +289,7 @@ const Home: NextPage = () => {
 
       <Layout>
         {/* Hero */}
-        <section className='hero flex items-center h-full py-[30px] md:min-h-[calc(100vh-84px-94px)] md:bg-center bg-no-repeat bg-cover'>
+        <section className='hero flex items-center h-full py-[30px] md:min-h-[calc(100vh-84px-94px)] md:bg-center bg-[url("/images/hero-bg-mobile.jpg")] md:bg-[url("/images/hero-bg.png")] bg-no-repeat bg-cover'>
           <div className='container grid grid-cols-12'>
             <div className='col-span-12 lg:col-span-10 xl:col-span-9'>
               <h1 className='text-center md:text-left text-4xl md:text-[65px] font-semibold tracking-[-1px] leading-[1.3] md:leading-[68px] text-white '>
