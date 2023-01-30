@@ -93,7 +93,7 @@ const NavLinks = [
 const Header = () => {
   return (
     <header className='flex items-center justify-between gap-4 px-6 py-[18px] text-base font-medium text-black bg-white'>
-      <Link href='/'>{/* <Logo /> */}</Link>
+      <Link href='/'><Logo /></Link>
 
       <div className='p-4 text-3xl xl:hidden'>
         <i className='fa-solid fa-bars'></i>
